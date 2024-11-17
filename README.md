@@ -1,4 +1,4 @@
-# 4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis
+#  EXPNO: 4  4Bit-Up-Down-Asynchronous-Reset-Counter-Synthesis
 
 ## Aim:
 
@@ -64,12 +64,16 @@ used.
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
 #### Synthesis RTL Schematic :
+![Screenshot 2024-11-11 112734](https://github.com/user-attachments/assets/a5d05b93-fc0b-41f8-aac7-361182d7cdf8)
 
 #### Area report:
+![image](https://github.com/user-attachments/assets/cbd6504c-e025-4fc7-b123-6c4dfe111901)
 
 #### Power Report:
+![image](https://github.com/user-attachments/assets/aa2e5a83-2800-4946-a3e4-2bba4660fe27)
 
 #### Timing Report: 
+![image](https://github.com/user-attachments/assets/e2fd13a5-4c90-4a92-b290-e10534c5b635)
 
 #### Result: 
 
