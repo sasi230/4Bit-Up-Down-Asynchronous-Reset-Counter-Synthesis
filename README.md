@@ -10,7 +10,7 @@ Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
 
 Synthesis: Genus
 
-### Step 1: Getting Started
+## Step 1: Getting Started
 
 Synthesis requires three files as follows,
 
@@ -20,7 +20,7 @@ Synthesis requires three files as follows,
 
 ◦ SDC (Synopsis Design Constraint) File (.sdc)
 
- ### Step 2 : Creating an SDC File
+ ## Step 2 : Creating an SDC File
 
 •	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
 
@@ -46,7 +46,7 @@ iv → Sets Clock Uncertainty to 10ps.
 
 v, vi → Sets the maximum limit for I/O port delay to 1ps.
 
-### Step 3 : Performing Synthesis
+## Step 3 : Performing Synthesis
 
 The Liberty files are present in the library path,
 
@@ -63,19 +63,19 @@ used.
 
 • Genus Script file with .tcl file Extension commands are executed one by one to synthesize the netlist.
 
-#### Synthesis RTL Schematic :
+## Synthesis RTL Schematic :
 ![Screenshot 2024-11-11 112734](https://github.com/user-attachments/assets/a5d05b93-fc0b-41f8-aac7-361182d7cdf8)
 
-#### Area report:
+## Area report:
 ![image](https://github.com/user-attachments/assets/cbd6504c-e025-4fc7-b123-6c4dfe111901)
 
-#### Power Report:
+## Power Report:
 ![image](https://github.com/user-attachments/assets/aa2e5a83-2800-4946-a3e4-2bba4660fe27)
 
-#### Timing Report: 
+## Timing Report: 
 ![image](https://github.com/user-attachments/assets/e2fd13a5-4c90-4a92-b290-e10534c5b635)
 
-#### Result: 
+## Result: 
 
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
 
