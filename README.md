@@ -14,19 +14,19 @@ Synthesis: Genus
 
 Synthesis requires three files as follows,
 
-◦ Liberty Files (.lib)
++ Liberty Files (.lib)
 
-◦ Verilog/VHDL Files (.v or .vhdl or .vhd)
++ Verilog/VHDL Files (.v or .vhdl or .vhd)
 
-◦ SDC (Synopsis Design Constraint) File (.sdc)
++ SDC (Synopsis Design Constraint) File (.sdc)
 
  ## Step 2 : Creating an SDC File
 
-•	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
++	In your terminal type “gedit input_constraints.sdc” to create an SDC File if you do not have one.
 
-•	The SDC File must contain the following commands;
++	The SDC File must contain the following commands;
 
-create_clock -name clk -period 2 -waveform {0 1} [get_ports "clk"]
+- create_clock -name clk -period 2 -waveform {0 1} [get_ports "clk"]
 
 set_clock_transition -rise 0.1 [get_clocks "clk"]
 
@@ -76,7 +76,6 @@ used.
 ![image](https://github.com/user-attachments/assets/e2fd13a5-4c90-4a92-b290-e10534c5b635)
 
 ## Result: 
-
 The generic netlist has been created, and area, power, and timing reports have been tabulated and generated using Genus.
 
 
