@@ -47,7 +47,6 @@ iv → Sets Clock Uncertainty to 10ps.
 v, vi → Sets the maximum limit for I/O port delay to 1ps.
 
 ## Step 3 : Performing Synthesis
-
 The Liberty files are present in the library path,
 
 • The Available technology nodes are 180nm ,90nm and 45nm.
